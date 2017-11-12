@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ListsAndAdapters</string>
+
+    <!--Main Activity Btn Texts-->
+    <string name="simple_listview_btn_text">Simple ListView</string>
+    <string name="simple_listview_viewholder_btn_text">Simple ListView With ViewHolder</string>
+    <string name="simple_grid_view_btn_text">SIMPLE GRID VIEW</string>
+    <string name="simple_recyclerview_btn_text">SIMPLE RECYCLERVIEW</string>
 </resources>

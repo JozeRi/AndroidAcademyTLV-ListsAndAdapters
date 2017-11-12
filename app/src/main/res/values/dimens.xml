@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_default_padding">16dp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+
+    <!--Friend list item values-->
+    <dimen name="li_friend_height">108dp</dimen>
+    <dimen name="li_friend_image_size">100dp</dimen>
+    <dimen name="li_friend_image_margin">4dp</dimen>
+    <dimen name="li_friend_vader_img_size">70dp</dimen>
+    <dimen name="li_friend_vader_img_margin">16dp</dimen>
+
+    <!--Friend grid item values-->
+    <dimen name="grid_friend_height">175dp</dimen>
+    <dimen name="grid_friend_vader_img_size">32dp</dimen>
+    <dimen name="grid_vertical_spacing">12dp</dimen>
+    <dimen name="grid_hotizontal_spacing">12dp</dimen>
+</resources>

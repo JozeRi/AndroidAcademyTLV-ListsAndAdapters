@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/grid_friend_height"
+              android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="@dimen/li_friend_image_size"
+        android:layout_height="@dimen/li_friend_image_size"
+        android:layout_margin="@dimen/li_friend_image_margin"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/li_friend_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/yonatan"/>
+
+        <ImageView
+            android:id="@+id/li_starwars_img"
+            android:layout_width="@dimen/grid_friend_vader_img_size"
+            android:layout_height="@dimen/grid_friend_vader_img_size"
+            android:visibility="gone"
+            android:scaleType="centerCrop"
+            android:layout_gravity="start|bottom"
+            android:src="@drawable/vader"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/li_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:lines="1"
+        tools:text="Yonatan V. Levin"/>
+
+</LinearLayout>

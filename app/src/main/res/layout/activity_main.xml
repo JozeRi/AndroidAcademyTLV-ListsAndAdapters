@@ -1,15 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="heroapps.com.listsandadapters.MainActivity">
+    tools:context="heroapps.com.listsandadapters.ui.MainActivity">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <Button
+            android:id="@+id/simple_listview_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/app_default_padding"
+            android:layout_margin="@dimen/app_default_padding"
+            android:text="@string/simple_listview_btn_text"/>
+
+        <Button
+            android:id="@+id/simple_listview_viewholder_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/app_default_padding"
+            android:layout_margin="@dimen/app_default_padding"
+            android:text="@string/simple_listview_viewholder_btn_text"/>
+
+        <Button
+            android:id="@+id/simple_grid_view_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/app_default_padding"
+            android:layout_margin="@dimen/app_default_padding"
+            android:text="@string/simple_grid_view_btn_text"/>
+
+        <Button
+            android:id="@+id/simple_recyclerview_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/app_default_padding"
+            android:layout_margin="@dimen/app_default_padding"
+            android:text="@string/simple_recyclerview_btn_text"/>
+
+    </LinearLayout>
+
+</ScrollView>
