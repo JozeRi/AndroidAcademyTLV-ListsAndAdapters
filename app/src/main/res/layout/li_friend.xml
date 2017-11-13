@@ -12,6 +12,7 @@
         android:layout_alignParentStart="true"
         android:layout_margin="@dimen/li_friend_image_margin"
         android:scaleType="centerCrop"
+        android:transitionName="@string/transition_name_friend_img"
         tools:src="@drawable/yonatan"/>
 
     <TextView
